@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<desserts>
+     <dessert id="4"><name>Red Velvet Cake</name><description>Red Velvet Cake</description><price>140</price><quantity>20</quantity><image>Red-Velvet-Cake-Recipe-1.jpg</image></dessert>
+
+    <dessert id="5"><name>Sweet Cake</name><description>Donuts!</description><quantity>48</quantity><price>30</price><image>cakes.jpg</image></dessert>
+
+    <dessert id="6">
+        <name>Cake</name>
+        <description>previous choco cake</description>
+        <price>30</price>
+        <quantity>49</quantity>
+        <image>cakes.jpg</image>
+    </dessert>
+</desserts>

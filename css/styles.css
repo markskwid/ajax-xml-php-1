@@ -1,0 +1,250 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  background-color: white;
+}
+
+.main .container {
+  width: 690px;
+  height: 690px;
+  box-shadow: 5px 5px 5px gainsboro;
+  border: 1px solid rgb(211, 211, 211);
+  margin: auto;
+}
+
+.container .header {
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.container .header-payment {
+  padding: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container .header button {
+  float: right;
+  margin-top: 18px;
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 5px solid black;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container .body {
+  background-color: white;
+  height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.container .body-cart {
+  background-color: white;
+  height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px;
+}
+
+.body .product {
+  height: 280px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 5px 2px 2px 1px gainsboro;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.product .product-image {
+  height: 120px;
+  width: 198px;
+  border-radius: 10px;
+}
+
+.product > h3 {
+  margin-left: 10px;
+}
+.product > p {
+  margin: 0;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.product button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  margin-left: 6px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container .sort,
+.container .sort-cart {
+  background-color: white;
+  height: 55px;
+  text-align: center;
+}
+
+.container .body-cart-payment {
+  background-color: white;
+  height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.container .body-cart-out {
+  background-color: white;
+  height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.body .for-description {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  font-family: sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 6px 2px gainsboro;
+  margin-bottom: 10px;
+  display: none;
+  transition-delay: 0.3ms;
+}
+
+.body-cart-payment input[type="text"] {
+  width: 55%;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 0;
+  outline: 1px solid gray;
+}
+
+.body-cart input[type="text"],
+input[type="file"] {
+  width: 95%;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 0;
+  outline: 1px solid gray;
+}
+
+.body-cart .add-sub {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  font-size: 20px;
+}
+
+.body-cart-payment .btn-pay,
+.body-cart-out .btn-pay {
+  padding: 10px;
+  margin-top: 10px;
+  width: 55%;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  font-size: 20px;
+}
+
+.sort > button {
+  font-size: 15px;
+  width: 80px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 5px solid black;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sort-cart a button {
+  font-size: 1.3rem;
+  width: 200px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 5px solid black;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.btn-change {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(27, 255, 38);
+  cursor: pointer;
+}
+
+.btn-remove {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(255, 56, 56);
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drinks>
+     
+
+    <drink id="5"><name>Choco Shake</name><description>Chocolate shake</description><price>70</price><quantity>20</quantity><image>Chocolate-Milkshake-SpendWithPennies-2-500x500.jpg</image></drink>
+
+    <drink id="6">
+        <name>Pandan Milktea</name>
+        <description>previous choco cake</description>
+        <price>30</price>
+        <quantity>49</quantity>
+        <image>20001.jpg</image>
+    </drink>
+<drink id="1"><name>Coffee</name><description>Coffeee</description><quantity>49</quantity><price>50</price><image>20002.jpg</image></drink></drinks>

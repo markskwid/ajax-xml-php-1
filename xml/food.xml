@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+     <food id="4">
+        <name>Ube Babarian</name>
+        <description>Donuts!</description>
+        <price>30</price>
+        <quantity>49</quantity>
+        <image>10001.jpg</image>
+     </food>
+
+    <food id="5"><name>EggHamBurger</name><description>Egg + Ham product</description><price>30</price><quantity>20</quantity><image>10006.jpg</image></food>
+
+    
+<food id="7"><name>Burger</name><description>Sample Description for this item</description><quantity>19</quantity><price>60</price><image>10002.jpg</image></food></foods>
